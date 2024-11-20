@@ -5,13 +5,6 @@
 <body>
     <header>
         <h1>Documentation</h1>
-        <p>
-            As before, document your work so you can showcase this project online. This can then be used as a case-study 
-            for UI/UX positions. For documentation: assume that someone is encountering your project for the first time. 
-            This documentation must be publicly available through one group member's portfolio page. 
-            I strongly recommend making a personal copy on your portfolio page, and copying the repo to your Git account, 
-            in case your teammates someday take their portfolio page down.
-        </p>
     </header>
 
     <main>
@@ -23,20 +16,15 @@
         <section>
             <h2>Description of Project</h2>
             <p>
-                This project was tailored around redesigning the UC Shuttle Application/Website, which is currently utilized 
-                to keep track of where the various shuttles are along their respective routes. Currently, the issues with the 
-                UC Shuttle Application were that it was difficult to view important information, including, but not limited to, 
-                specific route stops, operation hours, important announcements, and the state of if a shuttle was active. 
-                Additionally, there was functionality within the existing application that was bugged, including but not limited to filtering 
-                routes, toggling routes, and clicking on specific icons/routes to view information. Our redesign focuses on 
-                ensuring that the overall layout was more user-friendly and ensuring that relevant information was more presentable, 
-                which included our group adjusting the application layout to be more specific to a route and not showing all routes.
+               This project was tailored around redesigning the UC Shuttle Application/Website, which is currently utilized to keep track of where the various shuttles are along their respective routes. Currently, the issues with the UC Shuttle Application were that it was difficult to view important information, including, but not limited to, specific route stops, operation hours, important announcements, and the state of if a shuttle was active. Additionally, there was functionality within the existing application that was bugged, including but not limited to filtering routes, toggling routes and clicking on specific icons/routes to view information. Our redesign focuses on ensuring that the overall layout was more user friendly and ensuring that relevant information was more presentable, which included our group adjusting the application layout to be more specific to a route and not showing all routes. 
+
+ 
             </p>
         </section>
 
         <section>
             <h2>Design Work</h2>
-            <p>For our design, we knew we needed to do two main things: simplify the map and add a more intuitive search feature for finding a route. Our interviews confirmed this:</p>
+            <p>For our design, we knew we needed to do two main things: simplify the map and add a more intuitive search feature for finding a route. Our interviews confirmed this: </p>
             <h3>Questions:</h3>
             <ul>
                 <li>What do you expect when using an app or website for public transportation?</li>
@@ -52,18 +40,30 @@
             <p>Below are the detailed responses from various interviews conducted by Dylan, Andrew, Casey, and Kate.</p>
 
             <article>
-                <h4>Dylan Interviews:</h4>
-                <p><strong>User 1:</strong></p>
-                <ul>
-                    <li>I expect the app to actually show me a GPS or Google Maps style map view of an area where I can clearly see streets, buildings, etc. and how to get to and from locations.</li>
-                    <li>That whatever I am tracking is as accurate as possible, such that I know when and where something or someone will arrive or be.</li>
-                    <li>Yes, as knowing clearly if a usual route is unavailable, I do not want to waste time finding that information out. It should be clear and obvious.</li>
-                    <li>No.</li>
-                    <li>Yes, what are the triangles on the lines? Are they shuttles? If so, are they active or not? The colors are also not easy to identify and quickly become hard to figure out when they overlap. I am also unsure of what the bubbles with squares represent. Are they stopping points?</li>
-                    <li>Yes, times and schedules of the shuttles would be nice even in a generalized form. For example, if a Blue Ash shuttle is running in the afternoon, I want to know the standard times it will be running and the stops they will be making without having to decipher whatever is going on in the map.</li>
-                    <li>Yes. I would remove the satellite feature. A standard map works fine, and I see no reason why extra resources need to go into that function, which likely very few people would ever use. It seems obsolete to me.</li>
-                </ul>
-            </article>
+    <h4>Dylan Interviews:</h4>
+
+    <p><strong>User 1:</strong></p>
+    <ul>
+        <li><strong>1.</strong> I expect the app to actually show me a GPS or Google Maps-style map view of an area where I can clearly see streets, buildings, etc., and how to get to and from locations.</li>
+        <li><strong>2.</strong> That whatever I am tracking is as accurate as possible so that I know when and where something or someone will arrive or be.</li>
+        <li><strong>3.</strong> Yes, as knowing clearly if a usual route is unavailable. I do not want to have to waste time to find that information out. It should be clear and obvious.</li>
+        <li><strong>4.</strong> No.</li>
+        <li><strong>5.</strong> Yes, what are the triangles on the lines? Are they shuttles? If so, are they active or are they not? The colors are also not easy to identify, and it quickly becomes hard to figure things out when they overlap. I am also unsure of what the bubbles with the squares represent; are they stopping points?</li>
+        <li><strong>6.</strong> Yes, times and schedules of the shuttles would be nice even in a generalized form. For example, if a Blue Ash shuttle is running in the afternoon, I want to know the standard times it will be running and the stops they will be making without having to try to figure out whatever is going on in that map, which is currently very messy.</li>
+        <li><strong>7.</strong> Yes, besides things where I was already confused such as the bubbles and odd triangles (which I am sure have a purpose but it is currently unclear and needs to be redesigned or have a legend to figure out what means what), I would remove the satellite feature. A standard map works fine, and I see no reason why extra resources need to go into the function that likely very few people would ever use (it seems obsolete to me).</li>
+    </ul>
+
+    <p><strong>User 2:</strong></p>
+    <ul>
+        <li><strong>1.</strong> Accuracy in schedule and tracking if available.</li>
+        <li><strong>2.</strong> Accuracy of tracking, minimal delay.</li>
+        <li><strong>3.</strong> Yes.</li>
+        <li><strong>4.</strong> Yes.</li>
+        <li><strong>5.</strong> The routes seem unclear, but that's only because they are stacked on top of each other. I know you can focus on just one at a time, though, and that gets the job done.</li>
+        <li><strong>6.</strong> Estimated time until arrival at a certain stop.</li>
+        <li><strong>7.</strong> The UC bar takes up space that could be used for viewing the map or selecting shuttle tabs.</li>
+    </ul>
+</article>
 
             <article>
                 <h4>Casey Interviews:</h4>
@@ -79,6 +79,83 @@
                 </ul>
             </article>
         </section>
+
+        <article>
+    <h4>Andrew Interviews:</h4>
+    <p><strong>User 1:</strong></p>
+    <ul>
+        <li>Real-time information on where the transit is located at and the schedule/timing of the route.</li>
+        <li>Quick turnaround of updates that may be important to the user (i.e., updated routes, delays, timing) and accuracy of all information present.</li>
+        <li>Yes.</li>
+        <li>Yes.</li>
+        <li>Where the shuttles are at, as well as what routes exist and where they go.</li>
+        <li>Hours of operation, ETA, schedules.</li>
+        <li>The UC Logo/Bar as it takes up too much space.</li>
+    </ul>
+    <p><strong>User 2:</strong></p>
+    <ul>
+        <li>Easy to use, centralized application for routes and their schedules and stops/locations.</li>
+        <li>Accuracy of present data with frequent updates.</li>
+        <li>Yes.</li>
+        <li>No.</li>
+        <li>What shuttles are where and if they are active and the timing of when they will arrive at the next stop.</li>
+        <li>Shuttle Operation Hours.</li>
+        <li>UC Logo/Bar.</li>
+    </ul>
+</article>
+        <article>
+    <h4>Kate Plas Interviews:</h4>
+    
+    <p><strong>User 1</strong></p>
+    <ul>
+        <li><strong>What do you expect when using an app or website for public transportation?</strong><br>
+            I want to be able to use it like GoogleMaps. It would be nice if it told me how long I have to wait and when the bus would arrive.
+        </li>
+        <li><strong>When using an app or website to track something in real-time, what is most important to you?</strong><br>
+            I want to see where the bus is and for it to update frequently.
+        </li>
+        <li><strong>Would you like delays, early arrivals, and cancellations to be clearly visible in the interface?</strong><br>
+            Yes.
+        </li>
+        <li><strong>Have you ever used the UC shuttle app or website?</strong><br>
+            Yes I have and it is horrible. I have to scroll around the map and manually determine where I am located and where I want to go, then cross-reference that to the shuttle routes.
+        </li>
+        <li><strong>When looking at this image of the shuttle tracker, is there anything that appears unclear?</strong><br>
+            It is very cluttered. The routes are all automatically set to appear and it is very confusing.
+        </li>
+        <li><strong>When looking at this image of the shuttle tracker, is there anything you would want that’s not visible or easily accessible?</strong><br>
+            I want to be able to tell it where I want to go and give me the optimal shuttle route.
+        </li>
+        <li><strong>When looking at this image of the shuttle tracker, is there anything you would remove?</strong><br>
+            Yes. At the very least, I would remove the “Running” and “All” tabs because obviously I want to see what is running. Maybe could move those to a hidden options section.
+        </li>
+    </ul>
+
+    <p><strong>User 2</strong></p>
+    <ul>
+        <li><strong>What do you expect when using an app or website for public transportation?</strong><br>
+            I expect to see where the shuttle I need is located.
+        </li>
+        <li><strong>When using an app or website to track something in real-time, what is most important to you?</strong><br>
+            I like when the real-time tracking does not experience delays in updating.
+        </li>
+        <li><strong>Would you like delays, early arrivals, and cancellations to be clearly visible in the interface?</strong><br>
+            Yes. Maybe a notification of an early arrival would be especially helpful.
+        </li>
+        <li><strong>Have you ever used the UC shuttle app or website?</strong><br>
+            No I have not used it but have seen the interface.
+        </li>
+        <li><strong>When looking at this image of the shuttle tracker, is there anything that appears unclear?</strong><br>
+            Yes. I don’t know why they would show all of the shuttles when I just want to tell it where I want to go.
+        </li>
+        <li><strong>When looking at this image of the shuttle tracker, is there anything you would want that’s not visible or easily accessible?</strong><br>
+            Yes I want to give it my destination location and for it to determine for me what shuttle I should take.
+        </li>
+        <li><strong>When looking at this image of the shuttle tracker, is there anything you would remove?</strong><br>
+            Not in particular because I think the whole thing needs a different configuration.
+        </li>
+    </ul>
+</article>
 
         <section>
             <h2>Implementation</h2>
