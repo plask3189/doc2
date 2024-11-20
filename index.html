@@ -1,1 +1,121 @@
-<iframe src="https://mailuc-my.sharepoint.com/personal/plaska_mail_uc_edu/_layouts/15/Doc.aspx?sourcedoc={22754e78-1e36-4d94-a553-5e762bebeeda}&amp;action=embedview" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UC Shuttle Site Redesign Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Documentation</h1>
+        <p>
+            As before, document your work so you can showcase this project online. This can then be used as a case-study 
+            for UI/UX positions. For documentation: assume that someone is encountering your project for the first time. 
+            This documentation must be publicly available through one group member's portfolio page. 
+            I strongly recommend making a personal copy on your portfolio page, and copying the repo to your Git account, 
+            in case your teammates someday take their portfolio page down.
+        </p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Redesign of the UC Shuttle Site</h2>
+            <p><strong>Contributors:</strong> Dylan Bok, Casey Jackson, Andrew Pipo, Kate Plas</p>
+        </section>
+
+        <section>
+            <h2>Description of Project</h2>
+            <p>
+                This project was tailored around redesigning the UC Shuttle Application/Website, which is currently utilized 
+                to keep track of where the various shuttles are along their respective routes. Currently, the issues with the 
+                UC Shuttle Application were that it was difficult to view important information, including, but not limited to, 
+                specific route stops, operation hours, important announcements, and the state of if a shuttle was active. 
+                Additionally, there was functionality within the existing application that was bugged, including but not limited to filtering 
+                routes, toggling routes, and clicking on specific icons/routes to view information. Our redesign focuses on 
+                ensuring that the overall layout was more user-friendly and ensuring that relevant information was more presentable, 
+                which included our group adjusting the application layout to be more specific to a route and not showing all routes.
+            </p>
+        </section>
+
+        <section>
+            <h2>Design Work</h2>
+            <p>For our design, we knew we needed to do two main things: simplify the map and add a more intuitive search feature for finding a route. Our interviews confirmed this:</p>
+            <h3>Questions:</h3>
+            <ul>
+                <li>What do you expect when using an app or website for public transportation?</li>
+                <li>When using an app or website to track something in real-time, what is most important to you?</li>
+                <li>Would you like delays, early arrivals, and cancellations to be clearly visible in the interface?</li>
+                <li>Have you ever used the UC shuttle app or website?</li>
+                <li>When looking at this image of the shuttle tracker, is there anything that appears unclear?</li>
+                <li>When looking at this image of the shuttle tracker, is there anything you would want that’s not visible or easily accessible?</li>
+                <li>When looking at this image of the shuttle tracker, is there anything you would remove?</li>
+            </ul>
+
+            <h3>Responses:</h3>
+            <p>Below are the detailed responses from various interviews conducted by Dylan, Andrew, Casey, and Kate.</p>
+
+            <article>
+                <h4>Dylan Interviews:</h4>
+                <p><strong>User 1:</strong></p>
+                <ul>
+                    <li>I expect the app to actually show me a GPS or Google Maps style map view of an area where I can clearly see streets, buildings, etc. and how to get to and from locations.</li>
+                    <li>That whatever I am tracking is as accurate as possible, such that I know when and where something or someone will arrive or be.</li>
+                    <li>Yes, as knowing clearly if a usual route is unavailable, I do not want to waste time finding that information out. It should be clear and obvious.</li>
+                    <li>No.</li>
+                    <li>Yes, what are the triangles on the lines? Are they shuttles? If so, are they active or not? The colors are also not easy to identify and quickly become hard to figure out when they overlap. I am also unsure of what the bubbles with squares represent. Are they stopping points?</li>
+                    <li>Yes, times and schedules of the shuttles would be nice even in a generalized form. For example, if a Blue Ash shuttle is running in the afternoon, I want to know the standard times it will be running and the stops they will be making without having to decipher whatever is going on in the map.</li>
+                    <li>Yes. I would remove the satellite feature. A standard map works fine, and I see no reason why extra resources need to go into that function, which likely very few people would ever use. It seems obsolete to me.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h4>Casey Interviews:</h4>
+                <p><strong>User 1:</strong></p>
+                <ul>
+                    <li>Input location leaving from, destination, and/or desired departure time to get the best bus routes.</li>
+                    <li>Actual accuracy in current location/movement in real time is important.</li>
+                    <li>Yes, especially if I search for a specific bus route. I want to see the delay amount and if it is canceled clearly and obviously.</li>
+                    <li>No.</li>
+                    <li>The coordination of the bus timetable with bus stops is unclear. Also, the bus icons are sometimes squares and sometimes arrows. I thought the square meant the bus was stopped, but it was moving while the square icon was set.</li>
+                    <li>The timing of the bus routes could be clearer, especially if only one route is visible.</li>
+                    <li>I would not show all bus routes initially. Instead, I would just show the map with bus stops, allowing users to select their starting location, destination, and departure time for the best route.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2>Implementation</h2>
+            <p>
+                We utilized the Google Maps API to display a live map of the University of Cincinnati’s main campus, 
+                to which it is a scaled-out view covering the campus and shuttle travel scope. Additionally, we utilized 
+                the Svelte framework for the base website and hosted it on Vercel.
+            </p>
+        </section>
+
+        <section>
+            <h2>Future Work</h2>
+            <p>
+                In the future, we aim to complete implementing all planned routes. Additionally, we intend to enhance the 
+                software with an intelligent routing algorithm that determines and displays only the routes relevant to the 
+                user’s chosen destination.
+            </p>
+        </section>
+
+        <section>
+            <h2>Links</h2>
+            <ul>
+                <li><a href="https://github.com/PipoAT/UI-Proj3">GitHub Repository</a></li>
+                <li><a href="https://uc-shuttle-redesign.vercel.app">Live Website</a></li>
+                <li><a href="https://project3-demo-link.com">Live Demo</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 UC Shuttle Redesign Team</p>
+    </footer>
+</body>
+</html>
