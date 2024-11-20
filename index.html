@@ -156,6 +156,28 @@
         </li>
     </ul>
 </article>
+        From there, we drew multiple sketches, from basic sketches to storyboard sketches, to try and get an idea of what our redesign should look like: 
+
+
+        % sketchs
+
+        Combining these ideas expressed in our sketches, we settled on a final design plan for our interface. These are the primary things we decided to include in our redesign: 
+
+A map on the right side of the screen, like original page, but none of the routes are initially visible. This will make things less confusing for the user. 
+
+On the left side: 
+
+Shuttle info, including times of operation on the current day. 
+
+Search area, where a user can input a starting bus stop and destination bus stop and the map will then show the bus route to the desired location and the bus stops in between with more info when you click on each stop. 
+
+An area to show when the next bus will be arriving at your location. 
+
+From these sketches, we acquired feedback for the design ideas in order to gauge whether the redesign would address the issues in the UC Shuttle site. Feedback was largely positive, especially when compared to the UC Shuttle site’s display of the routes. The primary comment was that it seemed less cluttered and was much more visually appealing.  
+
+In addition to interviews, we also conducted background research. The Transit Mobile App used by Metro had a simple and effective format for displaying bus times. This structure was used to inspire the time table section of our interface. Other applications subject to background research were the airline apps. These often initially present the user with a query for where they would like to travel. Because of this finding, we ensured that the user was able to immediately see this part of the interface. These methods were implemented to advance our understanding and justification of the re-design.  
+
+These features will make up the basic design for our redesigned application, with more features potentially being added if there is time.  
 
         <section>
             <h2>Implementation</h2>
@@ -165,13 +187,18 @@
                 the Svelte framework for the base website and hosted it on Vercel.
             </p>
         </section>
+ <section>
+            <h2>AI</h2>
+        <p> AI was utilized to help develop and work out the issues with the Google Maps API/display as we attempted to have the map dynamically adjust to display routes and icons based on the user input. 
 
+We also utilized AI for general issue fixing with the overall container layout and design of each container. </p>
+ </section>
         <section>
             <h2>Future Work</h2>
             <p>
-                In the future, we aim to complete implementing all planned routes. Additionally, we intend to enhance the 
-                software with an intelligent routing algorithm that determines and displays only the routes relevant to the 
-                user’s chosen destination.
+               In the future, we aim to complete the implementation of all planned routes. Additionally, we intend to enhance the software with an intelligent routing algorithm that determines and displays only the routes relevant to the user’s chosen destination. 
+
+Alongside these route enhancements, we plan to implement a visual system designed to make distinguishing between visible routes intuitive and easy to understand at a glance. This visual system will improve the overall user experience by providing clear and concise route information, ensuring users can navigate seamlessly. 
             </p>
         </section>
 
